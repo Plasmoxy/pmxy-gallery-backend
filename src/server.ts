@@ -77,6 +77,10 @@ async function init() {
     }
   })
   
+  app.get("/auth", authorize, (req, res) => {
+    res.sendStatus(StatusCodes.OK)
+  })
+  
   app.post("/gallery", authorize, (req, res) => {
     if (!req.body || !req.body.name) {
       res.sendStatus(StatusCodes.BAD_REQUEST)
