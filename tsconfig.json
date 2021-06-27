@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+      "esModuleInterop": true,
+      "allowJs": true,
+      "experimentalDecorators": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "sourceMap": true,
+      "resolveJsonModule": true,
+      "sourceRoot": "src"
+  }
+}
